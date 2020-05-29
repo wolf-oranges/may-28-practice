@@ -1,0 +1,72 @@
+
+body{
+  background: red;
+  margin-left: 0;
+  font-family: comic,helvetica,cursive, sans-serif;
+  font-size: 20px;
+}
+header{
+    background-color: orange;
+}
+header h1{
+  color: white;
+  text-align: center;
+  font-family: helvetica,cursive, sans-serif;
+  font-size: 50px;
+}
+header img{
+  border-radius: 150px;
+  width: 400px;
+  border: 10px solid blue;
+  display: block; /* this also centers it but I honestly don't know how! */
+  margin-left: auto; /* these control the margins and having it be both centers it*/
+  margin-right: auto;
+  width:90%;  /* this controls how much of the page it takes up */
+
+
+}
+h1,h2{
+  font-family: 'Chelsea Market', cursive;
+}
+main{
+  max-width: 800px; /* in case there is a GIANT browser you won't have to scroll back and forth */
+  margin: 0 auto; /* THIS CENTERS STUFF!! this means the top and bottom are 0 and the left and right are auto */
+  padding: 0 20px; /* this means 0 for top and botttom, 20 for left/right, until I added 40 px a
+  nx 100 px thats different. I think it is bottom, top, right, left in that order
+  but I am sure you can look it up!! but if want to do the bottom, can add another 20 px i guess?*/
+  /* font-size: 35px; */
+  color: white;
+}
+main img{
+  max-width: 100%; /* 100 percent of the main "element" use this instead of using pixels bc then
+  you ONLY have to change the pixels for the main element */
+}
+h2{
+  margin: 40px 0 10px;
+}
+a{  /* a refers to anchor element. so in this case it applies to our links? I guess */
+  color: green;
+}
+a:hover{ /* hover means when we hover over it with our mouses!! how cool is that?  */
+  color: black;
+  background-color: blue;
+}
+footer{
+  background: red;
+  text-align: center;
+}
+footer a {
+  color: black;
+}
+footer a: hover{
+  opacity: .5;
+  background-color: inherit;
+}
+footer p{
+  margin: 0;
+}
+p.caption{   /* all paragraphs with a class of caption will have a color of grey  */
+  margin-top: 0;
+  color: grey;
+  font-style: italic;
+}
